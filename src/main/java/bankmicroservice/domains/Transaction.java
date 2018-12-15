@@ -29,7 +29,6 @@ public class Transaction implements Serializable{
 	
 	private int hostid;
 	
-	@JsonSerialize(using = CustomDateSerializer.class)
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date tx_date;
 	
